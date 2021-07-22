@@ -30,7 +30,7 @@
   color: #3e3c3e;
   padding: 11px 21px;
   border-radius: 5px;
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 #main-cr .consent-cr button {
