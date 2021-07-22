@@ -1,7 +1,19 @@
 @use './pages/home';
 @use './components/nav';
+@use './abstracts' as *;
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+#logo {
+    cursor: pointer;
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+        font-family: 'Poppins';
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
 }

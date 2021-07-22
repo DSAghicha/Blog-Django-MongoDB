@@ -1,8 +1,52 @@
 @use '../abstracts' as *;
-#landing {
+#main-cr {
     width: 100%;
     height: 100vh;
+    font-family: Trirong;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    .consent-cr {
+        width: 90%;
+        margin-top: 10vh;
+        background-color: $highlight-color;
+        color: $secondary-color;
+        padding: 11px 21px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        button {
+            background-color: $primary-color;
+            color: inherit;
+            border: none;
+            outline: none;
+            padding: 5px 10px;
+            border-radius: inherit;
+            cursor: pointer;
+        }
+    }
+    .col-cr {
+        margin: 2vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        div {
+            background-color: $primary-color;
+            border-radius: 5px;
+        }
+        .left-cl {
+            width: 14vw;
+            height: 100%;
+        }
+        .center-cl {
+            width: 70vw;
+            height: 100%;
+        }
+        .right-cl {
+            width: 14vw;
+            height: 100%;
+        }
+    }
 }
